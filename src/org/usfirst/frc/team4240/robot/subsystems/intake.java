@@ -58,7 +58,7 @@ public class intake extends Subsystem {
 
     }
     public void cubeIn() {
-    	Robot.intake.intakeTalon.set(-.3);
+    	Robot.intake.intakeTalon.set(-.6);
     }
     public void cubeOut() {
     	Robot.intake.intakeTalon.set(.3);

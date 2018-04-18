@@ -116,6 +116,14 @@ public class Robot extends TimedRobot {
 
     @Override
     public void teleopInit() {
+    	SmartDashboard.putNumber("Angle", Robot.driveTrain.getIMUAngle());
+    	SmartDashboard.putNumber("Current0", Robot.driveTrain.pdp.getCurrent(0));
+    	SmartDashboard.putNumber("Current1", Robot.driveTrain.pdp.getCurrent(1));
+    	SmartDashboard.putNumber("Current2", Robot.driveTrain.pdp.getCurrent(2));
+    	SmartDashboard.putNumber("Current3", Robot.driveTrain.pdp.getCurrent(3));
+    	SmartDashboard.putNumber("Current4", Robot.driveTrain.pdp.getCurrent(4));
+    	SmartDashboard.putNumber("Current5", Robot.driveTrain.pdp.getCurrent(5));
+    	
         // This makes sure that the autonomous stops running when
         // teleop starts running. If you want the autonomous to
         // continue until interrupted by another command, remove
