@@ -933,11 +933,11 @@ Properties:
     validators: null
     value: []
   Java Package: !!robotbuilder.data.properties.StringProperty {default: org.usfirst.frc0000,
-    name: Java Package, validators: null, value: org.usfirst.frc.team4240.robot}
+    name: Java Package, validators: null, value: org.usfirst.frc.team6349.robot}
   Use Default Java Package: !!robotbuilder.data.properties.BooleanProperty {default: true,
     name: Use Default Java Package, validators: null, value: false}
   Team Number: !!robotbuilder.data.properties.IntegerProperty {default: 0, name: Team Number,
-    validators: null, value: 4240}
+    validators: null, value: 6349}
   Export Subsystems: !!robotbuilder.data.properties.BooleanProperty {default: true,
     name: Export Subsystems, validators: null, value: true}
   Simulation World File: !!robotbuilder.data.properties.StringProperty {default: /usr/share/frcsim/worlds/GearsBotDemo.world,
@@ -947,4 +947,4 @@ Properties:
   Autonomous Command: !!robotbuilder.data.properties.TypeSelectionProperty {default: None,
     name: Autonomous Command, type: Command, validators: null, value: Autonomous Command}
 Base: Robot
-Name: troTek
+Name: roboChief
